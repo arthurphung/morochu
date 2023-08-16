@@ -2,6 +2,7 @@ import styles from './nav.module.scss';
 import { motion } from 'framer-motion';
 import { height } from '../anim';
 import Body from './Body/Body';
+import Img from './Image/Img';
 import { useState } from 'react';
 
 interface SelectedLink {
@@ -14,12 +15,12 @@ export default function Nav() {
         {
             title: 'Home',
             href: '/',
-            src: 'home.png',
+            src: 'morochu.jpg',
         },
         {
             title: 'Shop',
             href: '/shop',
-            src: 'shop.png',
+            src: 'merch.jpg',
         },
         {
             title: 'About Us',
@@ -34,7 +35,7 @@ export default function Nav() {
         {
             title: 'Merchandise',
             href: '/merch',
-            src: 'merch.png',
+            src: 'merch.jpg',
         },
         {
             title: 'Contact',
@@ -65,7 +66,10 @@ export default function Nav() {
                     />
                     {/* <Footer /> */}
                 </div>
-                {/* <Image /> */}
+                <Img
+                    src={links[selectedLink.index].src}
+                    isActive={selectedLink.isActive}
+                />
             </div>
         </motion.div>
     );
