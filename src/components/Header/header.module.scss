@@ -16,6 +16,18 @@
 			left: 0;
 			text-decoration: none;
 			color: black;
+
+			.imageContainer {
+				display: block;
+				width: 175px;
+				height: 50px;
+				position: relative;
+				top: -0.25rem;
+				left: -1.5rem;
+			}
+			img {
+				object-fit: cover;
+			}
 		}
 
 		.shopContainer {
@@ -79,6 +91,16 @@
 				}
 			}
 		}
+	}
+
+	.background {
+		background-color: black;
+		opacity: 0.5;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 100%;
 	}
 }
 
