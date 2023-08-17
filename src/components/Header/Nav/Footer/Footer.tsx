@@ -13,7 +13,7 @@ export default function Footer() {
 					animate='enter'
 					exit='exit'
 				>
-					<span>Made by:</span> Arthur Phung
+					<span>Developer:</span> Arthur Phung
 				</motion.li>
 			</ul>
 			<ul>
@@ -35,7 +35,7 @@ export default function Footer() {
 					animate='enter'
 					exit='exit'
 				>
-					<span>Images:</span>Morochu
+					<span>Company:</span> Morochu
 				</motion.li>
 			</ul>
 			<ul>
