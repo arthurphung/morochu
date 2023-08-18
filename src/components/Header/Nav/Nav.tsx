@@ -21,7 +21,7 @@ export default function Nav() {
 		{
 			title: 'About Us',
 			href: '/about',
-			src: 'about.png',
+			src: 'about.jpg',
 		},
 		{
 			title: 'Events',

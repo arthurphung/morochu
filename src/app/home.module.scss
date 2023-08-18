@@ -1,0 +1,41 @@
+.heroContainer {
+	background-image: url('/images/hero1.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	color: white;
+	text-align: center;
+
+	.headline {
+		font-size: 3.5rem;
+		line-height: 1;
+	}
+
+	.subHeadline {
+		width: 75%;
+		font-size: 1rem;
+		text-transform: uppercase;
+	}
+
+	.btn {
+		font-size: 1rem;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #f4f0ea;
+		border: 1px solid #f4f0ea;
+		padding: 10px 20px;
+		border-radius: 8px;
+		margin-top: 15px;
+		transition: background-color 0.25s;
+	}
+
+	.btn:hover {
+		background: #f4f0ea;
+		color: black;
+	}
+}
