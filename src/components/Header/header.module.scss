@@ -6,7 +6,7 @@
 
 	.bar {
 		display: flex;
-		justify-content: center;
+		justify-content: flex-end;
 		align-items: center;
 		font-size: 1rem;
 		text-transform: uppercase;
@@ -37,6 +37,7 @@
 			display: flex;
 			align-items: center;
 			gap: 30px;
+			display: none;
 		}
 
 		.el {
@@ -106,6 +107,7 @@
 		padding: 1.5rem;
 
 		.bar {
+			justify-content: center;
 			font-size: 1.3rem;
 			a {
 				padding: 0 1.5rem;
@@ -113,6 +115,7 @@
 
 			.ctaContainer {
 				padding: 1.5rem;
+				display: block;
 			}
 		}
 	}

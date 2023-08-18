@@ -8,17 +8,13 @@ export default function Home() {
 					<h1>Boston Born Concept</h1>
 				</div>
 				<p className={styles.subHeadline}>
-					Morochu was founded as a basis for creating connections
-					between people. Here, we believe that the simple act of
-					sharing a cup of coffee has the power to transcend
-					boundaries, unite diverse souls, and create lifelong
-					friendships.
+					&apos;&apos;Sign up for upcoming events&apos;&apos;
 				</p>
 				<a
 					href='/events'
 					className={styles.btn}
 				>
-					Reserve
+					Sign Up
 				</a>
 			</div>
 		</main>
