@@ -7,9 +7,7 @@ export default function Home() {
 				<div className={styles.headline}>
 					<h1>Boston Born Concept</h1>
 				</div>
-				<p className={styles.subHeadline}>
-					&apos;&apos;Sign up for upcoming events&apos;&apos;
-				</p>
+				<p className={styles.subHeadline}>Join an upcoming event</p>
 				<a
 					href='/events'
 					className={styles.btn}

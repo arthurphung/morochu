@@ -63,7 +63,7 @@ export default function Header() {
 					className={styles.ctaContainer}
 				>
 					<div className={styles.el}>
-						<p>Reserve</p>
+						<p>Sign Up</p>
 					</div>
 				</motion.div>
 			</div>
