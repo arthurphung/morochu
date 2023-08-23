@@ -26,6 +26,7 @@ export default function Header() {
 							src={'/images/morochu-logo.png'}
 							alt='morochu-logo'
 							fill={true}
+							sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
 						/>
 					</div>
 				</Link>

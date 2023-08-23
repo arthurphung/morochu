@@ -33,11 +33,11 @@ export default function Nav() {
 			href: '/shop',
 			src: 'merch.jpg',
 		},
-		{
-			title: 'Contact',
-			href: '/contact',
-			src: 'contact.jpg',
-		},
+		// {
+		// 	title: 'Contact',
+		// 	href: '/contact',
+		// 	src: 'contact.jpg',
+		// },
 	];
 
 	const [selectedLink, setSelectedLink] = useState<SelectedLink>({

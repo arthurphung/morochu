@@ -1,12 +1,71 @@
-.form {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
+$color-primary: #f4f0ea;
 
-.formContainer {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #6d6a75;
+
+	.title {
+		color: white;
+		text-align: center;
+	}
+
+	.subTitle {
+		color: white;
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	.form {
+		margin-top: 20px;
+		width: 50%;
+		border-radius: 6px;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+		.formInput {
+			width: 100%;
+			padding: 20px;
+			border: 0;
+			outline: 0;
+			border-bottom: 1px solid gray;
+			transition: 0.3s;
+
+			&:focus {
+				background: darken(#fff, 3%);
+			}
+		}
+
+		.formGroup:last-child {
+			input {
+				border: none;
+			}
+		}
+
+		.btn {
+			cursor: pointer;
+			padding: 20px;
+			border: 0;
+			outline: 0;
+			color: black;
+			background: $color-primary;
+			transition: 0.3s;
+			font-size: 1rem;
+
+			&:hover {
+				background: darken($color-primary, 5%);
+			}
+		}
+	}
+
+	.postMsg {
+		color: white;
+		font-weight: 600;
+		font-size: 2rem;
+	}
 }

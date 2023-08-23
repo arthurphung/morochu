@@ -1,0 +1,32 @@
+.container {
+	height: 100vh;
+	background: #3f2b27;
+	display: flex;
+
+	header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		h1 {
+			font-size: 3rem;
+			color: #b7410e;
+			text-transform: uppercase;
+		}
+
+		p {
+			color: #f5f3e0;
+			text-transform: uppercase;
+			padding: 0 10rem;
+			margin-top: 1rem;
+		}
+	}
+}
+
+.profilesContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #f5f3e0;
+}
