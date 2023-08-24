@@ -5,7 +5,7 @@ export default function Home() {
 		<main>
 			<div className={styles.heroContainer}>
 				<div className={styles.headline}>
-					<h1>Boston Born Concept</h1>
+					<h1>Morochu</h1>
 				</div>
 				<p className={styles.subHeadline}>Join an upcoming event</p>
 				<a

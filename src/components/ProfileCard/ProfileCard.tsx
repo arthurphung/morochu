@@ -5,12 +5,14 @@ interface ProfileCardProps {
 	name: string;
 	description: string;
 	src: string;
+	social: string;
 }
 
 export default function ProfileCard({
 	name,
 	description,
 	src,
+	social,
 }: ProfileCardProps) {
 	return (
 		<div className={styles.profileCard}>
@@ -24,8 +26,14 @@ export default function ProfileCard({
 				/>
 				<div className={styles.profileTitle}>{name}</div>
 				<div className={styles.profileDescription}>{description}</div>
-				<div className={styles.profileButton}>
-					<a href='#'>Contact me</a>
+				<div>
+					<a
+						className={styles.profileButton}
+						href={social}
+						target='_blank'
+					>
+						Contact me
+					</a>
 				</div>
 			</div>
 		</div>

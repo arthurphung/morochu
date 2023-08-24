@@ -10,16 +10,19 @@
 		align-items: center;
 
 		h1 {
-			font-size: 3rem;
+			font-size: 2.5rem;
 			color: #b7410e;
 			text-transform: uppercase;
+			text-align: center;
 		}
 
 		p {
 			color: #f5f3e0;
 			text-transform: uppercase;
-			padding: 0 10rem;
+			padding: 0 2rem;
 			margin-top: 1rem;
+			text-align: center;
+			font-size: 0.8rem;
 		}
 	}
 }
@@ -29,4 +32,18 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	background: #f5f3e0;
+}
+
+@media only screen and (min-width: 600px) {
+	.container {
+		header {
+			h1 {
+				font-size: 4rem;
+			}
+
+			p {
+				font-size: 1rem;
+			}
+		}
+	}
 }

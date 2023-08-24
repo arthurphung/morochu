@@ -20,7 +20,10 @@ export default function Header() {
 	return (
 		<div className={styles.header}>
 			<div className={styles.bar}>
-				<Link href='/'>
+				<Link
+					href='/'
+					className={styles.logo}
+				>
 					<div className={styles.imageContainer}>
 						<Image
 							src={'/images/morochu-logo.png'}
@@ -63,8 +66,13 @@ export default function Header() {
 					animate={isActive ? 'closed' : 'open'}
 					className={styles.ctaContainer}
 				>
-					<div className={styles.el}>
-						<p>Sign Up</p>
+					<div>
+						<a
+							href='/events'
+							className={styles.ctaBtn}
+						>
+							Sign Up
+						</a>
 					</div>
 				</motion.div>
 			</div>

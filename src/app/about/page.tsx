@@ -7,26 +7,31 @@ export default function About() {
 			name: 'Mohammed Al Saleh',
 			description: 'Head manager',
 			src: 'mo-propic.jpg',
+			social: 'https://www.instagram.com/amouni_saleh/',
 		},
 		{
 			name: 'Moin Khwaja',
 			description: 'Barista',
 			src: 'moin-propic.jpg',
+			social: 'https://www.instagram.com/mointokyo_/',
 		},
 		{
 			name: 'Tim Chu',
 			description: 'Barista',
 			src: 'tim-propic.jpg',
+			social: 'https://www.instagram.com/chudrinkscoffee/',
 		},
 		{
 			name: 'Roshun Menon',
 			description: 'Event planner',
 			src: 'roshun-propic.jpg',
+			social: 'https://www.instagram.com/rocean_12/',
 		},
 		{
 			name: 'Arthur Phung',
 			description: 'Lead web engineer',
 			src: 'arthur-propic.jpg',
+			social: 'https://www.linkedin.com/in/arthur-phung/',
 		},
 	];
 
@@ -51,6 +56,7 @@ export default function About() {
 						name={member.name}
 						description={member.description}
 						src={member.src}
+						social={member.social}
 					/>
 				))}
 			</div>
