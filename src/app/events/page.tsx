@@ -65,9 +65,7 @@ export default function Events() {
 			<>
 				<header>
 					<h1 className={styles.title}>Register</h1>
-					<p className={styles.subTitle}>
-						Upcoming: Sept. 2, 2023 event
-					</p>
+					<p className={styles.subTitle}>September 2, 2023 Event</p>
 				</header>
 				<form
 					className={styles.form}
